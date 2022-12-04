@@ -13,7 +13,7 @@ public class Day3 {
     }
 
     public static void puzzle1() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("Inputs/rucksacks.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Day3.txt"));
         String line;
         int mid;
         int sum=0;
@@ -37,7 +37,7 @@ public class Day3 {
     }
 
     public static void puzzle2() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("Inputs/rucksacks.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Day3.txt"));
         String line;
         int mid;
         int sum=0;

@@ -16,7 +16,7 @@ public class Day1 {
     }
 
     public static void puzzle1() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Calories.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Day1.txt"));
         String line;
         int elfCalories=0;
         int biggest=-1;
@@ -35,7 +35,7 @@ public class Day1 {
     }
 
     public static void puzzle2() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Calories.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Day1.txt"));
         String line;
         int elfCalories=0;
         int[] biggest = new int[3];

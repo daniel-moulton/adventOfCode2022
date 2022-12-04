@@ -11,7 +11,7 @@ public class Day2 {
     }
 
     public static void puzzle1() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("Inputs/rps.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Day2.txt"));
         String line;
         int score = 0;
         String[] splitted;
@@ -54,7 +54,7 @@ public class Day2 {
     }
 
     public static void puzzle2() throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader("Inputs/rps.txt"));
+        BufferedReader reader = new BufferedReader(new FileReader("Inputs/Day2.txt"));
         String line;
         int score = 0;
         String[] splitted;
