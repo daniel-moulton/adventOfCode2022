@@ -14,7 +14,6 @@ public class Day6 {
         String line = reader.readLine();
         char[] charFile = line.toCharArray();
         HashSet<Character> set = new HashSet<Character>();
-        Character[] chars = new Character[4];
         for (int i=0; i<charFile.length; i++) {
             for (int j=i; j<i+4; j++) {
                 set.add(charFile[j]);
